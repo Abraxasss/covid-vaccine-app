@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400&display=swap');
+
+nav{
+    background-color: #3260a8;
+    padding: 0.5em;
+}
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav>ul>li{
+    text-decoration: none;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.909);
+    font-size: 40px;
+    font-family: 'Cousine', monospace;
+}
+
+.link:hover{
+    opacity: 0.5;
+    
+}
