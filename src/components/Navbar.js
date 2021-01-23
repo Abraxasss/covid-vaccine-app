@@ -1,10 +1,13 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../styles/NavStyle.css'
 
 export default function Navbar() {
     return (
-        
+        <>
+            <header>
+                <h1>Covid Vaccine Tracker</h1>
+            </header>
             <nav>
                 <ul>
                     <li>
@@ -15,6 +18,7 @@ export default function Navbar() {
                     </li>
                 </ul>
             </nav>
-        
+        </>
+
     )
 }

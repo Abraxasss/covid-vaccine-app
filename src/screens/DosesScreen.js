@@ -10,15 +10,16 @@ export default function DosesScreen() {
 
     const displayData = data.map((d) =>{
             return(
-                { name: d.fascia_anagrafica, uv: d.prima_dose, pv: d.seconda_dose}
+                { name: d.fascia_anagrafica, prima: d.prima_dose, seconda: d.seconda_dose}
             )
         })
+    
       
     
 
     if (!loading) {
         return (
-           <ChartComponent displayData={displayData}/>
+           <ChartComponent displayData={displayData} home={false}/>
         )
     } else {
         return (

@@ -18,7 +18,7 @@ export default function App() {
           <Navbar />
           <Switch>
 
-            <Route exact path="/screens/DosesScreen.js">
+            <Route  path="/screens/DosesScreen.js">
               <DosesScreen />
             </Route>
 

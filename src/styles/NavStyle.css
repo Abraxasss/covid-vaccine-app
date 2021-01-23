@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400&display=swap');
 
+header{
+    background-color:  #190b50e8;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cousine', monospace;
+    color: rgba(255, 255, 255, 0.909); 
+    padding: 0.5em;
+}
+
 nav{
-    background-color: #3260a8;
+    background-color: #4632a849;
     padding: 0.5em;
 }
 
@@ -19,11 +28,14 @@ nav>ul>li{
 .link{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.909);
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Cousine', monospace;
 }
 
 .link:hover{
     opacity: 0.5;
-    
+}
+
+.link:focus{
+    opacity: 0.5;
 }

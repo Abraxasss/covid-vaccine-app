@@ -12,6 +12,7 @@ export default function VaccineDataProvider({children}) {
             .then(response => response.json())
             .then(vac => setData(vac.data))
             .then(setLoading(false))
+            .then(console.log('dal context', data))
     }, [])
 
     return (
